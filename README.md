@@ -8,4 +8,5 @@ Calculator::Run	                    1
 Calculator::evaluateExpression	    12
 Calculator::Calculate	              12
 
-Ciklomatska slozenost fajla Start:
+Ciklomatska slozenost fajla Start:  3
+
