@@ -11,3 +11,5 @@ Start:  3
 
 Kognitivna slozenost:
 Calculator:
+
+Calculator - 1 - 
