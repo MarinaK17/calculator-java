@@ -1,0 +1,31 @@
+Black box
+Prvu i drugu liniju ne znam da objasnim
+4. linija "public" nije definisano
+4. linija "class Calculator" mora biti odvojena novim redom ili tackom i zarezom
+4. linija "{" ocekivano ":"
+
+Da li je ovo uopste poenta? Ako jeste, da li mora na srpskom da se pise ili je moguce da se prepise iz editora?
+npr.
+Statements must be separated by newlines or semicolon
+
+
+
+Unit test
+import unittest
+from Calculator import Calculator
+
+class testCalculator(unittest,TestCase):
+    def test_1(self):
+        
+
+        expected =
+        result = 
+
+        self.assertEqual(expected, result)
+
+if __name__ == '__main__':
+    unittest.main()
+
+
+Toliko sam umela...
+Mislim da je malo jedan primer iz lekcije i nijedan primer kako se pise black box testiranje i nijedan primer u github-u kako to sve treba da izlgeda...
