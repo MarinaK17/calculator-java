@@ -1,16 +1,11 @@
 Black box
-Prvu i drugu liniju ne znam da objasnim
-4. linija "public" nije definisano
-4. linija "class Calculator" mora biti odvojena novim redom ili tackom i zarezom
-4. linija "{" ocekivano ":"
 
-Da li je ovo uopste poenta? Ako jeste, da li mora na srpskom da se pise ili je moguce da se prepise iz editora?
-npr.
-Statements must be separated by newlines or semicolon
-
+Program radi za svaku racunsku operaciju.
+Glavna metoda nije pronadjena u fajlu, potrebno je definisati "public static void main(String[] args)"
 
 
 Unit test
+
 import unittest
 from Calculator import Calculator
 
@@ -28,4 +23,5 @@ if __name__ == '__main__':
 
 
 Toliko sam umela...
-Mislim da je malo jedan primer iz lekcije i nijedan primer kako se pise black box testiranje i nijedan primer u github-u kako to sve treba da izlgeda...
+Ne mogu da se snadjem jer je java fajl u pitanju, pa ne mogu da importujem Calculator...
+Mislim da je malo samo jedan primer u lekciji i nijedan primer kako sve to treba da izlgeda u github-u...
