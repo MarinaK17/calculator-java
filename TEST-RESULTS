@@ -6,22 +6,27 @@ Glavna metoda nije pronadjena u fajlu, potrebno je definisati "public static voi
 
 Unit test
 
-import unittest
+TestCalculator
+
 from Calculator import Calculator
 
-class testCalculator(unittest,TestCase):
-    def test_1(self):
-        
+class testCalculator:
 
-        expected =
-        result = 
+    def test_calculate(self):
+        numbers = 5,4
+        operartions = "*"
+        expected_result = 20
 
-        self.assertEqual(expected, result)
+        actual_result = Calculator.calculate(numbers, operations)
 
-if __name__ == '__main__':
-    unittest.main()
+        if(expected_result == actual_result):
+            print("Test succeeded")
+        else:
+            print("Test failed")
 
+TestRunner
 
-Toliko sam umela...
-Ne mogu da se snadjem jer je java fajl u pitanju, pa ne mogu da importujem Calculator i nisam dobro razumela kako izaberem i da testiram tu jednu liniju...
-Mislim da je malo samo jedan primer iz lekcije i nijedan primer kako sve to treba da izlgeda u github-u... Ni za Black box nisam sigurna da je u redu..
+from TestCalculator import TestCalculator
+
+testCalculator = testCalculator()
+testCalculator.test_calculate()
